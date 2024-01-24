@@ -142,11 +142,21 @@ h3 {
 .form-group select {
   width: 100%;
   padding: 10px;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #d1d1d1;
   border-radius: 5px;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-family: inherit;
+  outline-color: #6fa0e8; /* Light blue outline color */
+  transition: outline-color 0.3s ease-in-out; /* Add smooth transition */
 }
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline-color: #007bff; /* Darker blue outline color on focus */
+}
+
 
 .form-group label {
   text-align: left;
@@ -156,9 +166,9 @@ h3 {
 
 .btn {
   padding: 10px 20px;
-  border: 1px solid #000;
+  border: 1px solid #007bff; /* Blue border */
   border-radius: 5px;
-  background: #000;
+  background: #007bff; /* Blue background */
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -176,7 +186,7 @@ h3 {
 
 .btn-reverse {
   background: #fff;
-  color: #000;
+  color: #007bff; /* Blue text */
 }
 
 .btn-block {
@@ -185,8 +195,11 @@ h3 {
 }
 
 .btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3;
   transform: scale(0.98);
 }
+
 
 .loadingSpinnerContainer {
   position: fixed;

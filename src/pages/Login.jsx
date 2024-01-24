@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaSignInAlt, FaUser } from "react-icons/fa";
+import { FaSignInAlt } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
