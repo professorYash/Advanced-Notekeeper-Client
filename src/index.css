@@ -84,6 +84,17 @@ h3 {
   padding: 0 20px;
 }
 
+.heading .username {
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 .heading p {
   color: #828282;
 }
@@ -112,7 +123,8 @@ h3 {
 .note h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #333; /* Dark gray text color */
+  color: #333;
+  /* Dark gray text color */
 }
 
 .note h4 {
@@ -168,14 +180,17 @@ h3 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: inherit;
-  outline-color: #6fa0e8; /* Light blue outline color */
-  transition: outline-color 0.3s ease-in-out; /* Add smooth transition */
+  outline-color: #6fa0e8;
+  /* Light blue outline color */
+  transition: outline-color 0.3s ease-in-out;
+  /* Add smooth transition */
 }
 
 .form-group input:focus,
 .form-group textarea:focus,
 .form-group select:focus {
-  outline-color: #007bff; /* Darker blue outline color on focus */
+  outline-color: #007bff;
+  /* Darker blue outline color on focus */
 }
 
 
@@ -187,9 +202,11 @@ h3 {
 
 .btn {
   padding: 10px 20px;
-  border: 1px solid #007bff; /* Blue border */
+  border: 1px solid #007bff;
+  /* Blue border */
   border-radius: 5px;
-  background: #007bff; /* Blue background */
+  background: #007bff;
+  /* Blue background */
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -207,7 +224,8 @@ h3 {
 
 .btn-reverse {
   background: #fff;
-  color: #007bff; /* Blue text */
+  color: #007bff;
+  /* Blue text */
 }
 
 .btn-block {
@@ -216,7 +234,8 @@ h3 {
 }
 
 .btn:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3;
+  /* Darker blue on hover */
   border-color: #0056b3;
   transform: scale(0.98);
 }
@@ -252,6 +271,7 @@ h3 {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -262,13 +282,16 @@ h3 {
     width: 100%;
     margin: 0 auto;
   }
+
   .form {
     width: 90%;
   }
+
   .header {
     padding: 5px 0;
     margin-bottom: 15px;
   }
+
   .heading {
     font-size: 2rem;
     margin-bottom: 15px;
@@ -310,13 +333,16 @@ h3 {
     width: 100%;
     margin: 0 auto;
   }
+
   .form {
     width: 75%;
   }
+
   .header {
     padding: 10px 0;
     margin-bottom: 30px;
   }
+
   .heading {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -355,6 +381,7 @@ h3 {
     width: 90%;
     margin: 0 auto;
   }
+
   .note {
     padding: 7px;
     margin: 8px auto;
