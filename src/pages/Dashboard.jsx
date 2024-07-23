@@ -17,6 +17,8 @@ function Dashboard() {
     (state) => state.notes
   );
 
+  console.log(notes);
+
   useEffect(() => {
     if (isError) {
       console.log(message);

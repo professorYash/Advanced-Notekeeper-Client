@@ -83,7 +83,8 @@ export const noteSlice = createSlice({
       .addCase(createNote.fulfilled, (state, action) => {
         state.isLoading = false;
         state.isSuccess = true;
-        state.notes.push(action.payload);
+        // state.notes.push(action.payload);
+        state.notes.unshift(action.payload);
         // console.log(action.payload);
       })
       .addCase(createNote.rejected, (state, action) => {
